@@ -597,6 +597,9 @@ header.main-header .header-sticky.active{
 	padding: 25px 0;
 	align-items: center;
 }
+.navbar .nav-menu-wrapper .navbar-nav .nav-item .nav-link::after{
+	display: none;
+}
 
 .navbar-brand{
 	padding: 0;
@@ -835,7 +838,7 @@ header.main-header .header-sticky.active{
 
 .hero{
 	position: relative;
-	background: url('../images/hero-bg.jpg') no-repeat;
+	background: url('../images/home.jpg') no-repeat;
 	background-position: center center;
 	background-size: cover;
 	padding: 140px 0;
@@ -1040,12 +1043,12 @@ header.main-header .header-sticky.active{
 /***       05. About Us css	      ***/
 /************************************/
 
-.about-us{
+/* .about-us{
 	background: url('../images/section-bg-1.png') no-repeat;
 	background-position: right bottom;
 	background-size: 200px auto;
 	padding: 100px 0;
-}
+} */
 
 .about-us-images{
     position: relative;
@@ -1395,12 +1398,12 @@ header.main-header .header-sticky.active{
 /***     07. Our Features css     ***/
 /************************************/
 
-.our-features{
+/* .our-features{
 	background: url('../images/section-bg-2.png') no-repeat;
 	background-position: left -30px bottom -37px;
 	background-size: 250px auto;
 	padding: 100px 0;
-}
+} */
 
 .our-features-list{
 	display: flex;
@@ -1670,12 +1673,12 @@ header.main-header .header-sticky.active{
 /***     09. Our Pricing css	  ***/
 /************************************/
 
-.our-pricing{
+/* .our-pricing{
 	background: url('../images/section-bg-3.png') no-repeat;
 	background-position: right -50px bottom -3px;
 	background-size: 281px auto;
 	padding: 100px 0;
-}
+} */
 
 .pricing-item{
 	background: var(--white-color);
@@ -2232,12 +2235,12 @@ header.main-header .header-sticky.active{
 /*** 	    14. Our Blog Css      ***/
 /************************************/
 
-.our-blog{
+/* .our-blog{
 	background: url('../images/section-bg-4.png') no-repeat;
 	background-position: left -30px bottom 0;
 	background-size: 238px auto;
 	padding: 100px 0 70px;
-}
+} */
 
 .post-item{
 	border: 1px solid var(--divider-color);
@@ -2476,7 +2479,7 @@ header.main-header .header-sticky.active{
 
 .page-header{
 	position: relative;
-	background-image: url('../images/page-header-bg.jpg');
+	background-image: url('../images/ecocare.png');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -2750,12 +2753,12 @@ header.main-header .header-sticky.active{
     margin-top: 40px;
 }
 
-.our-passion{
+/* .our-passion{
 	background: url('../images/section-bg-3.png') no-repeat;
 	background-position: right -50px bottom -3px;
     background-size: 281px auto;
     padding: 100px 0;
-}
+} */
 
 .passion-image figure{
     display: block;
@@ -2806,12 +2809,12 @@ header.main-header .header-sticky.active{
     color: var(--accent-color);
 }
 
-.our-legacy{
+/* .our-legacy{
 	background: url('../images/section-bg-2.png') no-repeat;
 	background-position: left -30px bottom -37px;
 	background-size: 250px auto;
     padding: 100px 0;
-}
+} */
 
 .legacy-content{
     position: sticky;
@@ -3022,12 +3025,12 @@ header.main-header .header-sticky.active{
 	color: var(--primary-color);
 }
 
-.our-team{
+/* .our-team{
 	background: url(../images/section-bg-1.png) no-repeat;
     background-position: right bottom;
     background-size: 200px auto;
 	padding: 100px 0 70px;
-}
+} */
 
 .team-item{
     height: calc(100% - 30px);
@@ -3139,12 +3142,12 @@ header.main-header .header-sticky.active{
 /*** 	 17. Services Page css    ***/
 /************************************/
 
-.page-services{
+/* .page-services{
 	background: url(../images/section-bg-1.png) no-repeat;
     background-position: right bottom;
     background-size: 200px auto;
     padding: 100px 0 70px;
-}
+} */
 
 .page-services .service-item{
     border: 1px solid var(--divider-color);
